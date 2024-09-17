@@ -7,7 +7,7 @@ import datetime
 
 
 # Function to get the cryptocurrency exchange rate
-def get_crypto_exchange_rate():
+def get_crypto_exchange_rate(): # функция
     selected_crypto = crypto_combobox.get()  # Get the selected cryptocurrency
     selected_fiat = fiat_combobox.get()  # Get the selected fiat currency
 
